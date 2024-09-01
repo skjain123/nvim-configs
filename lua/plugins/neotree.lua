@@ -10,6 +10,6 @@ return {
     },
 
     config = function()
-        vim.keymap.set('n', '<S-Tab>', ":Neotree . toggle left<CR>", {})
+        vim.keymap.set('n', '<S-Tab>', ":Neotree . toggle left<CR>", {noremap = true, silent = true})
     end
 }
