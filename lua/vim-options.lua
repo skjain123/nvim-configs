@@ -6,7 +6,6 @@ vim.g.mapleader = " "
 
 vim.cmd("set nu")
 
-
 -- colorscheme that will be used when installing plugins.
 install = { colorscheme = { "habamax" } }
 -- automatically check for plugin updates
