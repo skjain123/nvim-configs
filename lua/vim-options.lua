@@ -11,5 +11,8 @@ install = { colorscheme = { "catppuccin" } }
 -- automatically check for plugin updates
 checker = { enabled = true }
 
+-- load nvim faster
+vim.loader.enable()
+
 -- easier way to get to normal mode while in insert mode
 vim.keymap.set('i', '<C-d>', '<Esc>', {})
