@@ -7,6 +7,9 @@ vim.g.mapleader = " "
 vim.cmd("set nu")
 
 -- colorscheme that will be used when installing plugins.
-install = { colorscheme = { "habamax" } }
+install = { colorscheme = { "catppuccin" } }
 -- automatically check for plugin updates
 checker = { enabled = true }
+
+-- easier way to get to normal mode while in insert mode
+vim.keymap.set('i', '<C-d>', '<Esc>', {})
